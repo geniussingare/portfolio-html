@@ -7,15 +7,17 @@
     <title>Portfolio Website</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <header>
-        <nav role="navigation" aria-label="Main Navigation">
-            <div class="site-title">
-                <h1>Ganesh Singare</h1>
+    <header class="header">
+        
+        <nav role="navigation" class="nav-container" aria-label="Main Navigation">
+            <div class="nav-content">
+            <div class="logo" >
+                <a href="#Home">  Ganesh Singare </a>
             </div>
             <ul class="nav-links">
                 <li> <a href="#Home" class="nav-link">Home</a> </li>
@@ -23,7 +25,9 @@
                 <li> <a href="#Project" class="nav-link">Project</a> </li>
                 <li> <a href="#Conntact" class="nav-link">Contact</a> </li>
             </ul>
+        </div>
         </nav>
+    
     </header>
     <main>
         <!-- Home Section -->
@@ -43,7 +47,7 @@
         <!-- About Section-->
         <section id="About" class="section">
             <h2 class="section-title">
-                About
+                About Me
             </h2>
             <div class="about-content">
                 <p>
@@ -51,6 +55,16 @@
                     iste odio sit aperiam modi assumenda unde sunt magnam ratione culpa provident, reiciendis
                     repudiandae nulla.
                 </p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
             </div>
         </section>
         <!-- Project Section-->
@@ -110,6 +124,7 @@
             <p>&copy;2025 Ganesh Singare. All right reserved.</p>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
